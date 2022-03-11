@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>todos App</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/2b2d5c86fc.js" crossorigin="anonymous"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=DM+Serif+Display:ital@0;1&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="container">
+  <header>todos</header>
+  <div class="searchbar">
+    <div class="icon"><i class="fas fa-chevron-down"></i></div>
+    <input type="search" name="text" id="text" placeholder="What are you looking for?" />
+  </div>
+  <ul></ul>
+  <footer>
+    <div class="allfunctions">
+      <div class = "itemsleft" ><span>0</span> items left</div>
+      <div class="buttons">
+        <button class="all">All</button>
+        <button class="active">Active</button>
+        <button class="completed">Completed</button>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </footer>
+  <!-- <script src="./script.js"></script> -->
+  <script src="./fetchScript.js"></script>
+</body>
+</html>
